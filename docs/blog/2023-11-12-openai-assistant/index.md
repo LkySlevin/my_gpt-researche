@@ -143,7 +143,7 @@ from openai import OpenAI
 from tavily import TavilyClient
 
 # Initialize clients with API keys
-client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
+client = OpenAI(api_key=os.environ["OPENAI_BD_API_KEY"])
 tavily_client = TavilyClient(api_key=os.environ["TAVILY_API_KEY"])
 
 assistant_prompt_instruction = """You are a finance expert. 

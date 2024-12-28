@@ -33,7 +33,7 @@ class Memory:
 
                 _embeddings = OpenAIEmbeddings(
                     model=model,
-                    openai_api_key=os.getenv("OPENAI_API_KEY", "custom"),
+                    openai_api_key=os.getenv("OPENAI_BD_API_KEY", "custom"),
                     openai_api_base=os.getenv(
                         "OPENAI_BASE_URL", "http://localhost:1234/v1"
                     ),  # default for lmstudio
